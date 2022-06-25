@@ -1,0 +1,300 @@
+body {
+  background: #fffdd0;
+  margin: 0%;
+  padding: 0%;
+  width: auto;
+  background-image: linear-gradient(to bottom right, white, #fffdd0); 
+
+}
+p {
+  margin: 0;
+}
+
+#logo {
+  width: 7em;
+  height: 7em;
+  border: 0em solid #fffdd0;
+  border-radius: 2em;
+
+}
+
+h1#sitename {
+  font-size: 4em;
+  color: white;
+  position: relative;
+  left: 1.8em;
+  top: -2.13em;
+  width: 3em;
+}
+
+.top {
+  height: 9em;
+  padding: 2em 3em 0em 8.5em;
+  background: #964b00a9;
+}
+
+.top > .menu {
+  position: relative;
+  top: -18em;
+  left: 20em;
+  display: inline-block;
+  position: relative;
+  left: 58em;
+  top: -17em;
+}
+
+.topOptions{
+  margin: 2em 0 2em 0;
+}
+
+ #buttonSignin, #buttonSignup, button {
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 0.8em;
+  background: brown;
+  border: 0.6em brown solid;
+  border-radius: 1em;
+  text-align: center;
+}
+
+#buttonSignin:hover, #buttonSignup:hover, button:hover {
+  width: auto;
+  height: auto;
+  color: brown;
+  font-size: 0.8em;
+  background: white;
+  border: 0.6em white solid;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.main {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 90em;
+  font-size: 1.1em;
+}
+
+.textsOne, .textsTwo {
+  font-size: 1.1em;
+}
+
+.aristotelesFrase{
+  height: 11em;
+}
+
+.aristotelesFrase  #aristotelesPhoto {
+  width: 10em;
+  height: 10em;
+  border: 1px gray solid;
+  border-radius: 5em;
+  position: relative;
+  left: 50em;
+  top: -4.7em;
+}
+
+#aristotelesFrase1 {
+  position: relative;
+  top: 2em;
+  left: 2em;
+  width: 30em;
+  height: auto;
+  font-size: 1.5em;
+}
+
+#aristotelesName {
+  position: relative;
+  left: 25em;
+  top: 3em;
+  width: 5em;
+}
+
+.jungFrase {
+  height: 11em;
+
+}
+
+.jungFrase  #jungPhoto{
+  width: 10em;
+  height: 10em;
+  border: 1px gray solid;
+  border-radius: 5em;
+  position: relative;
+  left: 2em;
+  top: -4.7em;
+
+}
+
+#jungFrase1 {
+  position: relative;
+  top: 2em;
+  left: 10em;
+  width: 30em;
+  height: auto;
+  font-size: 1.5em;
+}
+
+#jungName {
+  position: relative;
+  left: 32em;
+  top: 3.8em;
+  width: 10em;
+
+}
+.options > button {
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 0.8em;
+  background: brown;
+  border: 0.6em brown solid;
+  border-radius: 1em;
+  position: relative;
+  left: 0em;
+  top: 1em;
+  text-align: center;
+}
+
+.options > button:hover {
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  color: brown;
+  font-size: 0.8em;
+  background: white;
+  border: 0.6em white solid;
+  border-radius: 3em;
+  position: relative;
+  left: 0em;
+  top: 1em;
+  text-align: center;
+}
+
+.rodape {
+  height: 8em;
+  width: auto;
+  background: #dcdcdc;
+  padding: 1em;
+  text-align: center;
+  box-shadow: inset 0 0 2px gray;
+}
+
+/*Signin Screen*/
+.allSignin {
+  padding: 2em 4em 0em 2em;
+  width: auto;
+  height: auto;
+  background-image: linear-gradient(to bottom right, #fffdd0, #fff87c); 
+}
+
+.signin > h1 {
+  position: relative;
+  top: 1.2em;
+  text-align: center;
+}
+
+.signin {
+  border-radius: 0.5em;
+  box-shadow: 0 0 3px gray;
+  width: 25em;
+  height: 22em;
+  position: relative;
+  left: 35%;
+  top: -4em;
+  background: white;
+}
+
+.signin > .loginDatas {
+  position: relative;
+  left: 0.75em;
+  top: 2.5em;
+}
+
+/*Signup Screen*/
+.allSignup {
+  padding: 2em 3.1em 0em 2em;
+  background-image: linear-gradient(to bottom right, #fffdd0, #fff87c); 
+
+}
+
+#logoSignup {
+  width: 3em;
+  height: 3em;
+  border-radius: 1em;
+}
+
+#sitenameSignup {
+  position: relative;
+  left: 1.55em;
+  top: -2.1em;
+}
+
+section > h1 {
+  position: relative;
+  top: 0.5em;
+  left: 0.25em;
+  font-size: 2.2em;
+  text-align: left;
+  color: brown;
+}
+
+section p {
+  font-weight: normal;
+}
+
+section {
+  border-radius: 0.5em;
+  width: 25em;
+  height: 32em;
+  position: relative;
+  left: 35%;
+  top: -5.5em;
+  background: white;
+  box-shadow: 0 0 3px gray;
+}
+
+.loginDatas > input {
+  width: 23em;
+  height: 2em;
+  border: 1px gray solid;
+  border-radius: 0.2em;
+  font-size: 1em;
+}
+.loginDatas p {
+  margin: 1.5em 0 0 0;
+}
+.loginDatas {
+  position: relative;
+  left: 0.75em;
+  top: 2em;
+}
+
+.loginDatas > button {
+  position: relative;
+  left: 0em;
+  top: 2em;
+  font-size: 1em;
+  color: white;
+  border: 0.5em solid brown;
+  background: brown;
+  border-radius: 1em;
+  width: 23.5em;
+  height: auto;
+  text-align: center;
+}
+
+.loginDatas > button:hover {
+  border: 0.5em solid white;
+  background: white;
+  color: brown;
+
+}
+
+#loginFromCad {
+  position: relative;
+  top: 2.5em;
+  text-align: center;
+}
