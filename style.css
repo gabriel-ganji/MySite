@@ -4,17 +4,16 @@ body {
   padding: 0%;
   width: auto;
   background-image: linear-gradient(to bottom right, white, #fffdd0); 
-
 }
 p {
   margin: 0;
 }
 
 #logo {
-  width: 7em;
-  height: 7em;
+  width: 6em;
+  height: 6em;
   border: 0em solid #fffdd0;
-  border-radius: 2em;
+  border-radius: 3.5em;
 
 }
 
@@ -22,25 +21,24 @@ h1#sitename {
   font-size: 4em;
   color: white;
   position: relative;
-  left: 1.8em;
-  top: -2.13em;
+  left: 1.12em;
+  top: -2em;
   width: 3em;
 }
 
 .top {
-  height: 9em;
+  height: 8em;
   padding: 2em 3em 0em 8.5em;
-  background: #964b00a9;
+  background: #c08142;
+
 }
 
 .top > .menu {
   position: relative;
-  top: -18em;
-  left: 20em;
   display: inline-block;
   position: relative;
   left: 58em;
-  top: -17em;
+  top: -16em;
 }
 
 .topOptions{
@@ -56,6 +54,8 @@ h1#sitename {
   border: 0.6em brown solid;
   border-radius: 1em;
   text-align: center;
+  font-weight: bold;
+
 }
 
 #buttonSignin:hover, #buttonSignup:hover, button:hover {
@@ -67,6 +67,8 @@ h1#sitename {
   border: 0.6em white solid;
   border-radius: 1em;
   text-align: center;
+  font-weight: bold;
+
 }
 
 .main {
@@ -143,6 +145,7 @@ h1#sitename {
   width: 10em;
 
 }
+
 .options > button {
   text-decoration: none;
   width: auto;
@@ -153,7 +156,7 @@ h1#sitename {
   border: 0.6em brown solid;
   border-radius: 1em;
   position: relative;
-  left: 0em;
+  left: 5em;
   top: 1em;
   text-align: center;
 }
@@ -168,7 +171,7 @@ h1#sitename {
   border: 0.6em white solid;
   border-radius: 3em;
   position: relative;
-  left: 0em;
+  left: 5em;
   top: 1em;
   text-align: center;
 }
@@ -178,16 +181,18 @@ h1#sitename {
   width: auto;
   background: #dcdcdc;
   padding: 1em;
+  padding-top: 2em;
   text-align: center;
   box-shadow: inset 0 0 2px gray;
 }
 
 /*Signin Screen*/
 .allSignin {
-  padding: 2em 4em 0em 2em;
+  padding: 2em 4em 8em 2em;
   width: auto;
   height: auto;
-  background-image: linear-gradient(to bottom right, #fffdd0, #fff87c); 
+  background-image: linear-gradient(to top left, #c081425d, #c08142);
+
 }
 
 .signin > h1 {
@@ -205,31 +210,35 @@ h1#sitename {
   left: 35%;
   top: -4em;
   background: white;
+
 }
 
 .signin > .loginDatas {
   position: relative;
   left: 0.75em;
   top: 2.5em;
+  padding: 0 0 0 0;
 }
+
 
 /*Signup Screen*/
 .allSignup {
   padding: 2em 3.1em 0em 2em;
-  background-image: linear-gradient(to bottom right, #fffdd0, #fff87c); 
+  background-image: linear-gradient(to top left, #c081425d, #c08142);
 
 }
 
 #logoSignup {
   width: 3em;
   height: 3em;
-  border-radius: 1em;
+  border-radius: 2em;
 }
 
 #sitenameSignup {
   position: relative;
-  left: 1.55em;
+  left: 1.2em;
   top: -2.1em;
+  color: white;
 }
 
 section > h1 {
@@ -254,6 +263,7 @@ section {
   top: -5.5em;
   background: white;
   box-shadow: 0 0 3px gray;
+  padding: 0 0 1em 0;
 }
 
 .loginDatas > input {
@@ -270,6 +280,7 @@ section {
   position: relative;
   left: 0.75em;
   top: 2em;
+
 }
 
 .loginDatas > button {
@@ -295,6 +306,83 @@ section {
 
 #loginFromCad {
   position: relative;
-  top: 2.5em;
+  top: 1.5em;
   text-align: center;
+}
+
+.allSignin  p#forgot {
+  position: relative;
+  top: 1em;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+/*Vocacional Test*/ 
+
+.topVocacionalTest{
+  background: #c08142;
+  padding: 2em;
+  height: 3em;
+}
+
+.asksField {
+  border-radius: 0.5em;
+  box-shadow: 0 0 3px gray;
+  width: 50em;
+  height: 115em;
+  position: relative;
+  left: 16%;
+  top: -4em;
+  background: white;
+  padding: 4em 3em 4em 3em;
+  font-weight: bold;
+}
+
+#yes {
+  color: green;
+}
+
+#no {
+  color: brown;
+}
+
+#vocacionalTestResult {
+  position: relative;
+  left: 18.8em;
+  top: 4em;
+  font-size: 1em;
+  text-align: center;
+
+}
+
+#yes {
+  float: right;
+  position: relative;
+  top: -1.1em;
+}
+
+#no{
+  float: right;
+  position: relative;
+  top: -1.1em;
+}
+
+
+hr{
+  background-color: bisque;
+}
+
+#test {
+  color: brown;
+}
+
+#test {
+  text-align: center;
+}
+
+#apres {
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(100, 100, 100);
+  
 }

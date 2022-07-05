@@ -6,14 +6,23 @@ const datas = {
 }
 
 function page(){
+
+  const vocacionalTest = function(){
+    window.location.href = '../vocacionalTest.html';
+  }
+
+  const bigFiveTest = function(){
+    window.location.href = '../bigFive.html';
+  }
+
   const signin = function() {
     console.log('OK');
-    window.location.href = 'http://127.0.0.1:8080/signin.html';
+    window.location.href = '../signin.html';
   };
   
   const signup = function() {
     console.log('OK');
-    window.location.href = 'http://127.0.0.1:8080/signup.html';
+    window.location.href = '../signup.html';
   
   };
 
@@ -25,6 +34,11 @@ function page(){
   .querySelector('#buttonSignup')
   .addEventListener("click", signup);
 
+  document
+  .querySelector("#vocacionalTest")
+  .addEventListener('click', vocacionalTest);
+
+  document.querySelector("#bigFiveButton").addEventListener('click', bigFiveTest);
 }
 
 function login(){
@@ -83,5 +97,16 @@ function register() {
   
   document.querySelector("#buttonCad").addEventListener("click", verifyFields);
   
-    
+}
+
+function vocacionalPage(){
+
+  const result = function(){
+    alert('Sua profissão é a de....');
+  }
+
+  document.querySelector("#vocacionalTestResult").addEventListener("click", result);
+
+
+
 }
